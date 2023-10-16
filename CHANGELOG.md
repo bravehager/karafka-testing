@@ -1,6 +1,14 @@
 # Karafka Test gem changelog
 
-## 2.1.5 (Unreleased)
+## 2.2.0 (2023-09-91)
+- [Maintenance] Ensure that `2.2.0` works with consumers for patterns.
+- [Maintenance] Replace signing key with a new one (old expired).
+
+## 2.1.6 (2023-08-06)
+- [Enhancement] Make `#used?` API always return true.
+- [Enhancement] Expand dummy client API with #seek.
+
+## 2.1.5 (2023-07-22)
 - [Enhancement] User `prepend_before` instead of `prepend` for RSpec (ojab)
 - [Enhancement] Add support for client `#commit_offsets` and `#commit_offsets!` stubs.
 - [Fix] Make sure that `#mark_as_consumed!` and `#mark_as_consumed` return true.
